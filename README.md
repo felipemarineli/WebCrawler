@@ -16,13 +16,13 @@ $ git clone https://github.com/felipemarineli/WebCrawler.git
 
 ### Installing
 
-Make sure there is an up-to-date version of [pip](https://pip.pypa.io/en/stable/) installed.
+Make sure there is an up-to-date version of [pip](https://pip.pypa.io/en/stable/) installed
 
 ```
 $ pip3 install --upgrade --user pip
 ```
 
-Install a [virtual environment](https://virtualenv.pypa.io/en/latest/) under `/WebCrawler`.
+Install a [virtual environment](https://virtualenv.pypa.io/en/latest/) under `/WebCrawler`
 
 ```
 $ cd ./WebCrawler
@@ -43,6 +43,7 @@ $ pip install -r requirements.txt
 
 ### Usage:
 
+The call takes two arguments: *start_url* and *depth*
 ```
 $ python main.py "https://www.sciencemag.org/" 2
 ```                                
