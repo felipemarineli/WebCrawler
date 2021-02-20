@@ -1,6 +1,6 @@
 # Simple web crawler
 
-This is a simple web crawler based on a breadth-first approach. It takes a start URL and the depth as arguments. It follows only URLs with the same domain as the start URL; prints out the links to the screen; and saves the results to a JSON file called `data.json`.
+This is a simple web crawler based on a breadth-first approach. It takes a start URL and the maximum depth as arguments. It follows only URLs with the same domain as the start URL; prints out the links to the screen; and saves the results to a JSON file called `data.json`.
 
 ## Getting Started
 
