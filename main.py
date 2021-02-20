@@ -55,7 +55,7 @@ class WebCrawler():
 
             # 'get_links()' method is called to extract the links
             urls = self.get_links(v)
-            # for each URL in the result, check if has been visited already, otherwise add it to visited urls and enqueue it
+            # for each URL in the result, check if it has been visited already, otherwise add it to visited urls and enqueue it
             for url in urls:
                 if url not in self.visited:
                     self.visited.add(url)
