@@ -44,5 +44,5 @@ $ pip install -r requirements.txt
 ### Usage:
 
 ```
-$ python3 main.py "https://www.sciencemag.org/" 2
+$ python main.py "https://www.sciencemag.org/" 2
 ```                                
